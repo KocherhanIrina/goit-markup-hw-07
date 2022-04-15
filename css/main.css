@@ -104,7 +104,7 @@ body {
   text-decoration: none;
 }
 
-.nav-logo .nav-logo__web {
+.nav-logo__web {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -112,7 +112,7 @@ body {
   color: var(--accent-color);
 }
 
-.nav-logo .nav-logo__studio {
+.nav-logo__studio {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
