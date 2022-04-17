@@ -102,14 +102,6 @@ img {
   text-decoration: none;
 }
 
-.nav-logo__web {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  color: var(--accent-color);
-}
-
 .nav-logo__studio {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -118,11 +110,23 @@ img {
   color: #000000;
 }
 
+.nav-logo__web {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--accent-color);
+}
+
 /* ______________header menu */
 .menu {
   display: flex;
   align-items: center;
   margin-left: 93px;
+}
+
+.menu__item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .menu__link {
@@ -136,10 +140,6 @@ img {
 
 .menu__link:hover, .menu__link:focus {
   color: var(--accent-color);
-}
-
-.menu__item:not(:last-child) {
-  margin-right: 50px;
 }
 
 .curent {
@@ -211,6 +211,13 @@ img {
   background-position: center;
 }
 
+.hero__btn {
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .hero__title {
   font-weight: 900;
   font-size: 44px;
@@ -222,13 +229,6 @@ img {
   max-width: 696px;
   margin: 0 auto;
   margin-bottom: 30px;
-}
-
-.hero__btn {
-  display: block;
-  align-items: center;
-  text-align: center;
-  margin: 0 auto;
 }
 
 .feature {
@@ -386,12 +386,12 @@ img {
   color: var(--primary-text-color);
 }
 
-/* _______TEAM-SOCIALS-ICONS (іконки соц-сітей)_____________ */
 .team__list-social {
   display: flex;
   justify-content: center;
 }
 
+/* _______TEAM-SOCIALS-ICONS (іконки соц-сітей)_____________ */
 .social-list__item-soc:not(:last-child) {
   margin-right: 10px;
 }
@@ -887,6 +887,14 @@ img {
   margin-right: 11px;
 }
 
+.checkbox__link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: var(--accent-color);
+}
+
 .checkbox__label {
   display: flex;
   align-items: center;
@@ -916,14 +924,6 @@ img {
   border: none;
   width: 15px;
   height: 16px;
-}
-
-.checkbox__link {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-decoration-line: underline;
-  color: var(--accent-color);
 }
 
 /* Кнопка Модалки */
