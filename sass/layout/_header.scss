@@ -120,18 +120,7 @@
     }
 }
 
-// .curent::after {
-//     display: block;
-//     position: absolute;
-//     bottom: -32px;
 
-//     content: "";
-//     width: 100%;
-//     height: 4px;
-
-//     background-color: var(--accent-color);
-//     border-radius: 2px;
-// }
 
 /* tel+mail */
 .contacts {
@@ -171,7 +160,18 @@
         margin-right: 10px;
     }
 }
+// .curent::after {
+//     display: block;
+//     position: absolute;
+//     bottom: -32px;
 
+//     content: "";
+//     width: 100%;
+//     height: 4px;
+
+//     background-color: var(--accent-color);
+//     border-radius: 2px;
+// }
 // .contacts__item:not(:last-child) {
 //     margin-right: 50px;
 // }

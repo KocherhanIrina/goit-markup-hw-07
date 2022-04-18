@@ -1,4 +1,10 @@
 @charset "UTF-8";
+.feature-list__wrap, .list-work__hidden, .social-list__icon-link, .list-clients__link, .join-list__link, .modal__close-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 :root {
   --accent-color: #2196f3;
   --primary-text-color: #757575;
@@ -262,9 +268,6 @@ img {
 }
 
 .feature-list__wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: #F5F4FA;
   border-radius: 4px;
   width: 270px;
@@ -308,9 +311,6 @@ img {
 
 .list-work__hidden {
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   height: 70px;
   bottom: 0;
@@ -391,7 +391,6 @@ img {
   justify-content: center;
 }
 
-/* _______TEAM-SOCIALS-ICONS (іконки соц-сітей)_____________ */
 .social-list__item-soc:not(:last-child) {
   margin-right: 10px;
 }
@@ -399,9 +398,6 @@ img {
 .social-list__icon-link {
   width: 44px;
   height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 50%;
   color: #AFB1B8;
   background-color: var(--header-bg-color);
@@ -419,6 +415,7 @@ img {
   fill: currentColor;
 }
 
+/* _______TEAM-SOCIALS-ICONS (іконки соц-сітей)_____________ */
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -449,9 +446,6 @@ img {
 }
 
 .list-clients__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100%;
   border: 1px solid #AFB1B8;
@@ -573,9 +567,6 @@ img {
 }
 
 .join-list__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -778,9 +769,6 @@ img {
 
 .modal__close-btn {
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 30px;
   height: 30px;
   cursor: pointer;

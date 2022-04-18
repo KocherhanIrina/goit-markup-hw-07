@@ -25,9 +25,7 @@
     }
     
     &__wrap {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @extend %align-list;
     
         background: #F5F4FA;
         border-radius: 4px;
