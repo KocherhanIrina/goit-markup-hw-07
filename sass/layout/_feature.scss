@@ -14,9 +14,10 @@
     }
     &__title {
         color: var(--title-text-color);
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 1.14;
+        @include font (700, 1.14, $ls:0.03em);
+        // font-size: 14px;
+        // font-weight: 700;
+        // line-height: 1.14;
         text-transform: uppercase;
         margin-bottom: 10px;
     }

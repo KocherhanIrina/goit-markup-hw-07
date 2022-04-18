@@ -29,6 +29,7 @@
         position: absolute;
         top: 0;
         left: 0;
+        @include font (null, 18px, 1.56);
         font-size: 18px;
         line-height: 1.56;
         letter-spacing: 0.03em;
@@ -48,10 +49,11 @@
     }
     &__title {
         color: var(--title-text-color);
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
+        @include font (700, 18px, 2, 0.06em);
+        // font-weight: 700;
+        // font-size: 18px;
+        // line-height: 2;
+        // letter-spacing: 0.06em;
         margin-bottom: 4px;
     }
     &__text {

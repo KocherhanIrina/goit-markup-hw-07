@@ -55,11 +55,12 @@
     }
     &__title {
         font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 1.15;
+        @include font (700, 20px, 1.15);
+        // font-weight: 700;
+        // font-size: 20px;
+        // line-height: 1.15;
+        // letter-spacing: 0.03em;
         text-align: center;
-        letter-spacing: 0.03em;
         color: var(--title-text-color);
         margin-bottom: 12px;
     }
@@ -72,9 +73,10 @@
         margin-bottom: 10px;
     }
     &__input-text {
-        font-size: 12px;
-        line-height: 1.16;
-        letter-spacing: 0.01em;
+        @include font ($fs: 12px,$lh: 1.16,$ls: 0.01em);
+        // font-size: 12px;
+        // line-height: 1.16;
+        // letter-spacing: 0.01em;
     }
     &__input-wrap {
         position: relative;
@@ -143,9 +145,10 @@
     margin-left: 11px;
     margin-right: 11px;
     &__link {
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
+        @include font (null, 14px);
+        // font-size: 14px;
+        // line-height: 1.71;
+        // letter-spacing: 0.03em;
         text-decoration-line: underline;
     
         color: var(--accent-color);

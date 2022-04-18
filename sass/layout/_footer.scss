@@ -11,19 +11,20 @@
 .footer-logo {
     text-decoration: none;
     &__web {
+        @include font (700, 26px, 1.2);
         font-family: Raleway, sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.2;
-    
+        // font-weight: 700;
+        // font-size: 26px;
+        // line-height: 1.2;
         color: var(--accent-color);
     }
     &__studio {
         color: var(--white-text-color);
         font-family: Raleway, sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.2;
+        @include font (700, 26px, 1.2);
+        // font-weight: 700;
+        // font-size: 26px;
+        // line-height: 1.2;
     }
 }
 /* __________Факт-Адресса-FOOTER____________ */
@@ -86,10 +87,11 @@
 
 .join-title {
     margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include font (700, $lh:1.14, $ls: 0.03em);
+    // font-weight: 700;
+    // font-size: 14px;
+    // line-height: 1.14;
+    // letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--header-bg-color);
 }
@@ -127,9 +129,10 @@
 .subscribe {
     margin-left: 93px;
     &__text {
-        font-weight: 700;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
+        @include font (700, $lh:1.14, $ls: 0.03em);
+        // font-weight: 700;
+        // line-height: 1.14;
+        // letter-spacing: 0.03em;
         text-transform: uppercase;
     
         color: var(--header-bg-color);
@@ -143,10 +146,10 @@
         width: 358px;
         border-radius: 4px;
         border: 1px solid rgba(255, 255, 255, 0.3);
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: inherit;
+        @include font (400, 16px, 1.25);
+        // font-weight: 400;
+        // font-size: 16px;
+        // line-height: 1.25;
     
         background-color: transparent;
         color: #ffffff;
@@ -156,11 +159,12 @@
         position: absolute;
         width: 200px;
         height: 50px;
+        @include font (700, 16px, 1.88, 0.06em);
     
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.88;
-        letter-spacing: 0.06em;
+        // font-weight: 700;
+        // font-size: 16px;
+        // line-height: 1.88;
+        // letter-spacing: 0.06em;
     
         color: var(--header-bg-color);
         background: var(--accent-color);
